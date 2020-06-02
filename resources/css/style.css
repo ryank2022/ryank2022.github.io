@@ -465,13 +465,12 @@ footer {
 */
 .copywrite {
     background-color: black;
-    margin-top: 72%;
     text-align: center;
      font-size: 80%;
 }
-.margin-copy {
-    margin-top: 0%;
-}
-.workout-margin {
-    margin-top: 148%;
+.section-copyright {
+  background-color: black;
+  height: 2px;
+  padding: 15px;
+  
 }
