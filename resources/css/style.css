@@ -317,6 +317,36 @@ header{
     
 }
 
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: #000;
+}
+
+.meal-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
 
 /* --------------------------------*/
 /* HOW IT WORKS */
@@ -441,7 +471,5 @@ footer {
 }
 .section-copyright {
   background-color: black;
-  height: 2px;
-  padding: 15px;
-  
+  padding: 0px 0px;
 }
