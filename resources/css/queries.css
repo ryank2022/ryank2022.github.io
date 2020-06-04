@@ -20,11 +20,6 @@
     .steps-box:last-child { margin-top: 10px;}
     .works-steps { margin-bottom: 40px;}
     .works-steps:last-of-type { margin-bottom: 60px;}
- 
-    .section-workout-div {
-        width: 100%;
-        margin-left: 2%;
-    }
     
     
 }
@@ -56,10 +51,6 @@
         padding: 4px;
         font-size: 120%;
     }
-        .section-workout-div {
-        width: 100%;
-        margin-left: 2%;
-    }
     
     .steps-box:first-child { text-align: center;}
     .app-screen { width: 40%;}
@@ -68,9 +59,5 @@
 /* small phones from 0 to 480px */
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0;}
-        .section-workout-div {
-        width: 100%;
-        margin-left: 2%;
-    }
     
 }
