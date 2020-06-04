@@ -65,7 +65,7 @@ h1 {
     font-size: 240%;
     word-spacing: 4px;
     letter-spacing: 1px;
-
+    text-align: center;
 }
 
 h2 {
@@ -93,6 +93,7 @@ h4 {
     content: " ";
     width: 550px;
     margin-bottom: 1%;
+    margin-left: 20%;
 }
 
 h2:after {
@@ -214,13 +215,15 @@ a:active {
 
 
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/gym-pic-5.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/back-2.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     height: 100vh;
     background-attachment: fixed;
     width: 100%;
 }
+
+
 
 .index-header-div {
     position: absolute;
@@ -270,7 +273,7 @@ header{
 
 .main-nav li a:link,
 .main-nav li a:visited{
-    padding: 8px 0px;
+    padding: 1px 0px;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -298,6 +301,7 @@ header{
    font-size: 90%;
    color: #dddddd;
    word-spacing: 2px;
+   text-align: center;
 }
 .short-copy {
     margin-bottom: 30px;
@@ -360,6 +364,7 @@ header{
 
 .injury {
     color: white;
+    margin-top: 5%;
 }
 
 .steps-box:first-child {
