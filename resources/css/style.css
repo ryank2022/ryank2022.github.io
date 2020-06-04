@@ -86,16 +86,6 @@ h3 {
     text-align: left;
 }
 
-h4 {
-    display: block;
-    height: 2px;
-    background-color: #ffff40;
-    content: " ";
-    width: 550px;
-    margin-bottom: 1%;
-    margin-left: 25%;
-}
-
 h2:after {
     display: block;
     height: 2px;
