@@ -403,11 +403,11 @@ text-align: center;
 /* --------------------------------*/
 
 .section-plans {
-    background-color: #505050;
+    background-color: #0000ff;
 }
 
 .endurance {
-    background-color: #5a5a5a;
+    background-color: #0000ff;
 }
 
 .section-workout-div {
@@ -445,7 +445,7 @@ text-align: center;
 
 .section-workout-p {
     font-size: 80%;
-    color: #494949;
+    color: #0000ff;
     text-align: left;
 }
 
