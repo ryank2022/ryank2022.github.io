@@ -268,7 +268,7 @@ header{
 
 .main-nav li {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 3rem;
 }
 
 .main-nav li a:link,
@@ -301,7 +301,7 @@ header{
    font-size: 90%;
    color: #dddddd;
    word-spacing: 2px;
-   text-align: center;
+text-align: center; 
 }
 .short-copy {
     margin-bottom: 30px;
