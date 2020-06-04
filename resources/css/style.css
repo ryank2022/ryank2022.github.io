@@ -1,7 +1,7 @@
 
 
 /* --------------------------------*/
-/* BASIC SETUP */
+/* BASIC SETUP *//*#e67e22
 /* --------------------------------*/
 
 *{
@@ -88,7 +88,7 @@ h3 {
 h4 {
     display: block;
     height: 2px;
-    background-color: #e67e22;
+    background-color: #ffff40;
     content: " ";
     width: 550px;
     margin-bottom: 1%;
@@ -97,7 +97,7 @@ h4 {
 h2:after {
     display: block;
     height: 2px;
-    background-color: #e67e22;
+    background-color: #ffff40;
     content: " ";
     width: 550px;
     margin: 0 auto;
@@ -144,10 +144,10 @@ h2:after {
 
 a:link,
 a:active {
-    color: #e67e22;
+    color: #ffff40;
     text-decoration: none;
     padding-bottom: 1px;
-    border-bottom: 1px solid #e67e22;
+    border-bottom: 1px solid #ffff40;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
@@ -280,7 +280,7 @@ header{
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #e67e22;
+    border-bottom: 2px solid #ffff40;
 }
 
 /* --------------------------------*/
@@ -389,8 +389,8 @@ header{
 }
 
 .works-step div {
-    color: #e67e22;
-    border: 2px solid #e67e22;
+    color: #ffff40;
+    border: 2px solid #ffff40;
     border-radius: 50%;
     height: 55px;
     width: 55px;
