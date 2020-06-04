@@ -10,13 +10,15 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     background-color: #fff;
     color: #fff;
     font-family: 'Lato', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-y: hidden;
 }
 
 .clearfix {zoom: 1}
@@ -379,9 +381,10 @@ header{
 }
 
 .works-step p {
-    font-size: 90%;
+    font-size: 80%;
     letter-spacing: 2px;
     word-spacing: 3px;
+    font-family: sans-serif;
 }
 
 .works-step:last-of-type {
@@ -397,7 +400,7 @@ header{
     text-align: center;
     padding: 5px;
     float: left;
-    font-size: 130%;
+    font-size: 120%;
     margin-right: 25px;
 }
 
