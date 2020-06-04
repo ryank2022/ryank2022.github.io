@@ -89,7 +89,7 @@ h3 {
 h2:after {
     display: block;
     height: 2px;
-    background-color: #ffff40;
+    background-color: #ffff00;
     content: " ";
     width: 550px;
     margin: 0 auto;
@@ -139,7 +139,7 @@ a:active {
     color: #ffff40;
     text-decoration: none;
     padding-bottom: 1px;
-    border-bottom: 1px solid #ffff40;
+    border-bottom: 1px solid #ffff00;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
@@ -386,8 +386,8 @@ text-align: center;
 }
 
 .works-step div {
-    color: #ffff40;
-    border: 2px solid #ffff40;
+    color: #ffff00;
+    border: 2px solid #ffff00;
     border-radius: 50%;
     height: 55px;
     width: 55px;
