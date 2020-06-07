@@ -86,10 +86,20 @@ h3 {
     text-align: left;
 }
 
+h4 {
+    display: block;
+    height: 2px;
+    background-color: #ffff40;
+    content: " ";
+    width: 550px;
+    margin-bottom: 1%;
+    margin-left: 25%;
+}
+
 h2:after {
     display: block;
     height: 2px;
-    background-color: #ffff00;
+    background-color: #ffff40;
     content: " ";
     width: 550px;
     margin: 0 auto;
@@ -139,7 +149,7 @@ a:active {
     color: #ffff40;
     text-decoration: none;
     padding-bottom: 1px;
-    border-bottom: 1px solid #ffff00;
+    border-bottom: 1px solid #ffff40;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
@@ -205,7 +215,7 @@ a:active {
 
 
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/back-2.jpg);
+    background-image: linear-gradient(rgba(6, 38, 182, 0.7),rgba(6, 38, 182, 0.7)), url(img/back-2.jpg);
     background-size: cover;
     background-position: top;
     height: 100vh;
@@ -213,15 +223,20 @@ header{
     width: 100%;
 }
 
+.header-height{
 
+    height: 20vh;
+  
+}
 
 .index-header-div {
     position: absolute;
     width: 1140px;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
 }
+
 .logo {
     height: 150px;
     width: auto;
@@ -276,6 +291,32 @@ header{
 .main-nav li a:active {
     border-bottom: 2px solid #ffff40;
 }
+/* --------------------------------*/
+/* sticky nav*/
+/* --------------------------------*/
+.sticky {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%; 
+    background-color: black;
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+.sticky .main-nav li a:link, 
+.sticky .main-nav li a:visited {
+    padding: 6px 5px;
+    color: white;
+
+} 
+.sticky .main-nav {margin-top: 28px;}  
+.sticky .logo {
+    height: 80px;
+    width: auto;
+    float: left;
+    margin-top: 0%;
+}
+
 
 /* --------------------------------*/
 /* FEATURES */
@@ -348,7 +389,7 @@ text-align: center;
 /* --------------------------------*/
 
 .section-steps {
-    background-color: #333333;
+    background-color: #232e4d;
     letter-spacing: 2px;
 }
 
@@ -386,8 +427,8 @@ text-align: center;
 }
 
 .works-step div {
-    color: #ffff00;
-    border: 2px solid #ffff00;
+    color: #ffff40;
+    border: 2px solid #ffff40;
     border-radius: 50%;
     height: 55px;
     width: 55px;
@@ -403,11 +444,11 @@ text-align: center;
 /* --------------------------------*/
 
 .section-plans {
-    background-color: #0000ff;
+    background-color: #232e4d;
 }
 
 .endurance {
-    background-color: #0000ff;
+    background-color: #394e6e;
 }
 
 .section-workout-div {
@@ -415,7 +456,7 @@ text-align: center;
     border-radius: 5px;
     width: 90%;
     margin-left: 5%;
-    box-shadow: 0 2px 2px #ffffff;
+    box-shadow: 0 2px 2px 2px #ffffff;
 }
 
 .section-workout-div div {
@@ -445,7 +486,7 @@ text-align: center;
 
 .section-workout-p {
     font-size: 80%;
-    color: #0000ff;
+    color: #494949;
     text-align: left;
 }
 
